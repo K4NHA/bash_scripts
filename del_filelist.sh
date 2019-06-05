@@ -11,7 +11,6 @@
 #
 # md() {
 #	#add filenames to a file to be deleted as a batch
-#	#echo realpath "$1" >> ~/files_to_delete.txt
 #	echo $(cd $(dirname "$1") && pwd -P)/$(basename "$1") >> ~/files_to_delete.txt
 #}
 #
